@@ -1,0 +1,288 @@
+100000000   14
+
+Generate = 0.157653 
+Bin = 0.045361 
+Distribute = 0.264615 
+Local sort = 1.391060 
+Gather = 0.315017 
+Total = 2.173742 
+Correct result!
+
+
+
+100000000   28
+
+Generate = 0.081238 
+Bin = 0.023856 
+Distribute = 0.457553 
+Local sort = 0.669671 
+Gather = 0.382317 
+Total = 1.614687 
+Correct result!
+
+
+
+100000000   42
+
+Generate = 0.062705 
+Bin = 0.026199 
+Distribute = 0.579786 
+Local sort = 0.470930 
+Gather = 0.411145 
+Total = 1.550809 
+Incorrect
+
+
+
+100000000   56
+
+Generate = 0.048320 
+Bin = 0.019554 
+Distribute = 0.765221 
+Local sort = 0.372444 
+Gather = 0.657327 
+Total = 1.862898 
+Correct result!
+
+
+
+100000000   70
+
+Generate = 0.040448 
+Bin = 0.016917 
+Distribute = 0.968951 
+Local sort = 0.305234 
+Gather = 0.512320 
+Total = 1.843920 
+Correct result!
+
+
+
+100000000   84
+
+Generate = 0.036730 
+Bin = 0.015586 
+Distribute = 1.175560 
+Local sort = 0.261767 
+Gather = 0.563530 
+Total = 2.053211 
+Correct result!
+
+
+
+100000000   98
+
+Generate = 0.031718 
+Bin = 0.014184 
+Distribute = 1.455841 
+Local sort = 0.231875 
+Gather = 0.644976 
+Total = 2.378641 
+Correct result!
+
+
+
+100000000   112
+
+Generate = 0.027648 
+Bin = 0.012431 
+Distribute = 1.815795 
+Local sort = 0.204459 
+Gather = 0.678184 
+Total = 2.738567 
+Correct result!
+
+
+
+100000000   126
+
+Generate = 0.023815 
+Bin = 0.010095 
+Distribute = 2.291702 
+Local sort = 0.173163 
+Gather = 0.758252 
+Total = 3.257075 
+Correct result!
+
+
+
+100000000   140
+
+Generate = 0.023096 
+Bin = 0.011293 
+Distribute = 2.354452 
+Local sort = 0.173883 
+Gather = 0.778602 
+Total = 3.341405 
+Correct result!
+
+
+
+500000000   14
+
+Generate = 0.779024 
+Bin = 0.236817 
+Distribute = 0.395050 
+Local sort = 7.179196 
+Gather = 1.508369 
+Total = 10.098546 
+Correct result!
+
+
+
+500000000   28
+
+Generate = 0.423078 
+Bin = 0.138120 
+Distribute = 0.513193 
+Local sort = 4.133045 
+Gather = 1.561588 
+Total = 6.769072 
+Correct result!
+
+
+
+500000000   42
+
+Generate = 0.311203 
+Bin = 0.132841 
+Distribute = 0.657113 
+Local sort = 3.025934 
+Gather = 1.453408 
+Total = 5.580538 
+Correct result!
+
+
+
+500000000   56
+
+Generate = 0.214923 
+Bin = 0.098720 
+Distribute = 0.823604 
+Local sort = 1.875080 
+Gather = 1.513063 
+Total = 4.525427 
+Correct result!
+
+
+
+500000000   70
+
+Generate = 0.172776 
+Bin = 0.078575 
+Distribute = 0.989853 
+Local sort = 1.495125 
+Gather = 1.520554 
+Total = 4.256949 
+Correct result!
+
+
+
+500000000   84
+
+Generate = 0.153848 
+Bin = 0.072764 
+Distribute = 1.253826 
+Local sort = 1.303772 
+Gather = 1.634057 
+Total = 4.418312 
+Correct result!
+
+
+
+500000000   98
+
+Generate = 0.134301 
+Bin = 0.070845 
+Distribute = 1.452305 
+Local sort = 1.209326 
+Gather = 1.662769 
+Total = 4.529594 
+Correct result!
+
+
+
+500000000   112
+
+Generate = 0.121255 
+Bin = 0.060797 
+Distribute = 1.844218 
+Local sort = 1.084435 
+Gather = 1.728255 
+Total = 4.839007 
+Correct result!
+
+
+
+500000000   126
+
+Generate = 0.109588 
+Bin = 0.049454 
+Distribute = 2.381469 
+Local sort = 0.998216 
+Gather = 1.831602 
+Total = 5.370378 
+Correct result!
+
+
+
+500000000   140
+
+Generate = 0.107082 
+Bin = 0.054452 
+Distribute = 2.422958 
+Local sort = 0.938093 
+Gather = 1.918848 
+Total = 5.441478 
+Correct result!
+
+
+
+2000000000   28
+
+Generate = 1.467929 
+Bin = 0.458189 
+Distribute = 0.882444 
+Local sort = 14.506940 
+Gather = 6.400618 
+Total = 23.716180 
+Correct result!
+
+
+
+2000000000   42
+
+Generate = 1.047530 
+Bin = 0.496168 
+Distribute = 0.961834 
+Local sort = 10.729545 
+Gather = 6.470733 
+Total = 19.705872 
+Incorrect
+
+
+
+2000000000   84
+
+Generate = 0.640725 
+Bin = 0.292835 
+Distribute = 1.428124 
+Local sort = 5.681235 
+Gather = 21.655899 
+Total = 29.698875 
+Incorrect
+
+
+
+2000000000   98
+
+Generate = 0.561550 
+Bin = 0.279501 
+Distribute = 1.667488 
+Local sort = 5.386215 
+Gather = 18.212372 
+Total = 26.107191 
+Correct result!
+
+
+

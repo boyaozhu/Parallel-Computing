@@ -1,0 +1,26 @@
+#!/bin/bash --login
+########## SBATCH Lines for Resource Request ##########
+
+#SBATCH --time=03:00:00                # limit of wall clock time - how long the job will run (same as -t)
+#SBATCH --nodes=1                     # number of different nodes - could be an exact number or a range of nodes (same as -N)
+#SBATCH --gres=gpu:k80:1
+#SBATCH --ntasks-per-node=28                     # number of tasks - how many tasks (nodes) that you require (same as -n)
+#SBATCH --cpus-per-task=1              # number of CPUs (or cores) per task (same as -c)
+#SBATCH --mem=200G               # memory required per allocated CPU (or core) - amount of memory (in bytes)
+#SBATCH --job-name zhuboyao            # you can give your job a name for easier identification (same as -J)
+
+########## Command Lines to Run ##########
+
+module purge
+module load GNU/4.4.5
+module OpenMPI/1.10.0
+module load CUDA/10.0.130 
+
+
+for size in 200 1000 5000
+do
+    ./cardiacsim -t 100 -n ${size} >> v2.dat
+done
+
+ 
+scontrol show job $SLURM_JOB_ID     ### write job information to output file

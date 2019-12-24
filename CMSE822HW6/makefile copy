@@ -1,0 +1,19 @@
+
+CC := mpicc
+
+CFLAGS := -std=c99 -O3 -lm
+
+all: bucket_sort_v1 bucket_sort_v2 bucket_sort_v3
+    @echo "Compilation complete."
+
+bucket_sort_v1: 
+    $(CC) -o bucket_sort_v1.x ./bucket_sort_v1.c $(CFLAGS)
+
+bucket_sort_v2: 
+    $(CC) -o bucket_sort_v2.x ./bucket_sort_v2.c $(CFLAGS)
+
+bucket_sort_v3:
+    $(CC) -o bucket_sort_v3.x ./bucket_sort_v3.c $(CFLAGS)
+
+clean: 
+	-rm *.x 

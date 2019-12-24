@@ -1,0 +1,47 @@
+#!/bin/bash --login
+########## SBATCH Lines for Resource Request ##########
+
+# limit of wall clock time - how long the job will run (same as -t)
+#SBATCH --time=00:10:00
+
+# number of different nodes - could be an exact number or a range of nodes 
+#SBATCH --nodes=1
+
+# number of CPUs (or cores) per task (same as -c)
+#SBATCH --cpus-per-task=28          
+
+# use standard intel16 "laconia" nodes.
+#SBATCH --constraint=lac            
+
+# memory required per allocated  Node  - amount of memory (in bytes)
+#SBATCH --mem=100G                  
+
+#Send email notification to your MSU email when the job begins, ends, or is aborted by the scheduler.
+#SBATCH --mail-user=your-username@msu.edu   
+#SBATCH --mail-type=FAIL,BEGIN,END
+
+# you can give your job a name for easier identification (same as -J)
+#SBATCH --job-name Name_of_Job      
+ 
+########## Command Lines to Run ##########
+
+module unload GNU OpenMPI
+module load GNU/6.4.0-2.28 OpenMPI/2.1.2
+export TAU_SET_NODE=0
+
+#
+# Change to the directory from which the job was submitted. In order for this to
+# work as intended, your job should be submitted from the directory in which you
+# want it to run.
+#
+cd ${PBS_O_WORKDIR}
+#
+# Compile and run your code. The below option runs the compiled code in the test 
+# mode only. You can (and should) modify this part based on what kind of 
+# performance data you would like to collect (i.e., using the naive code for various 
+# matrix sizes, collecting cache utilization data using the TAU-instrumented version,
+# etc.)
+#
+make multiplication -j && ./multiplication.x test input1.txt
+
+./multiplication.x perf 10000 10000 100 >& results_10000_10000_100.txt

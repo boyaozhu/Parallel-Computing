@@ -1,0 +1,330 @@
+100000000   14
+
+Generate = 2.673001
+ Bin = 0.785276
+ Distribute = 0.580731
+ Local Sort = 1.696404
+ Gather = 0.172357
+ Total = 5.907771
+Correct result!
+
+
+100000000   28
+
+Generate = 2.983986
+ Bin = 0.875375
+ Distribute = 0.796651
+ Local Sort = 0.825746
+ Gather = 0.173438
+ Total = 5.655198
+Correct result!
+
+
+100000000   42
+
+Generate = 2.721525
+ Bin = 1.108258
+ Distribute = 0.994444
+ Local Sort = 0.475489
+ Gather = 0.247553
+ Total = 5.547270
+Correct result!
+
+
+100000000   56
+
+Generate = 3.174652
+ Bin = 1.351427
+ Distribute = 1.244163
+ Local Sort = 0.416265
+ Gather = 0.347314
+ Total = 6.533823
+Correct result!
+
+
+100000000   70
+
+Generate = 3.195755
+ Bin = 1.288729
+ Distribute = 1.511561
+ Local Sort = 0.352933
+ Gather = 0.200580
+ Total = 6.549559
+Correct result!
+
+
+100000000   84
+
+Generate = 3.338832
+ Bin = 1.273184
+ Distribute = 1.666233
+ Local Sort = 0.293899
+ Gather = 0.205781
+ Total = 6.777930
+Correct result!
+
+
+100000000   98
+
+Generate = 3.099714
+ Bin = 1.304904
+ Distribute = 1.932207
+ Local Sort = 0.260377
+ Gather = 0.302167
+ Total = 6.899370
+Correct result!
+
+
+100000000   112
+
+Generate = 3.548789
+ Bin = 1.361235
+ Distribute = 2.161205
+ Local Sort = 0.230521
+ Gather = 0.253012
+ Total = 7.554764
+Correct result!
+
+
+100000000   126
+
+Generate = 3.592390
+ Bin = 1.540384
+ Distribute = 2.541153
+ Local Sort = 0.203333
+ Gather = 0.270405
+ Total = 8.147666
+Correct result!
+
+
+100000000   140
+
+Generate = 3.788022
+ Bin = 1.434019
+ Distribute = 2.629464
+ Local Sort = 0.192284
+ Gather = 0.236189
+ Total = 8.279978
+Correct result!
+
+
+500000000   14
+
+Generate = 13.192125
+ Bin = 3.852135
+ Distribute = 1.897479
+ Local Sort = 9.015191
+ Gather = 0.746692
+ Total = 28.703624
+Correct result!
+
+
+500000000   28
+
+Generate = 14.253214
+ Bin = 4.100568
+ Distribute = 2.315342
+ Local Sort = 4.806694
+ Gather = 1.125767
+ Total = 26.601586
+Incorrect result!
+
+
+500000000   42
+
+Generate = 14.548542
+ Bin = 6.368265
+ Distribute = 2.548754
+ Local Sort = 3.319013
+ Gather = 0.927766
+ Total = 27.712341
+Incorrect result!
+
+
+500000000   56
+
+Generate = 14.696840
+ Bin = 6.164092
+ Distribute = 2.805409
+ Local Sort = 2.408066
+ Gather = 0.954724
+ Total = 27.029132
+Incorrect result!
+
+
+500000000   70
+
+Generate = 20.045287
+ Bin = 5.835939
+ Distribute = 2.802342
+ Local Sort = 1.595897
+ Gather = 0.843066
+ Total = 31.122533
+Correct result!
+
+
+500000000   84
+
+Generate = 13.948183
+ Bin = 6.177656
+ Distribute = 3.089098
+ Local Sort = 1.365073
+ Gather = 0.912842
+ Total = 25.492854
+Incorrect result!
+
+
+500000000   98
+
+Generate = 14.214003
+ Bin = 5.845395
+ Distribute = 3.387581
+ Local Sort = 1.188131
+ Gather = 0.872988
+ Total = 25.508100
+Correct result!
+
+
+500000000   112
+
+Generate = 14.999696
+ Bin = 6.344123
+ Distribute = 3.672738
+ Local Sort = 1.066153
+ Gather = 0.887195
+ Total = 26.969906
+Correct result!
+
+
+500000000   126
+
+Generate = 15.372009
+ Bin = 6.476860
+ Distribute = 4.320136
+ Local Sort = 1.435822
+ Gather = 0.877497
+ Total = 28.482325
+Correct result!
+
+
+500000000   140
+
+Generate = 16.459178
+ Bin = 6.397458
+ Distribute = 4.323447
+ Local Sort = 0.940287
+ Gather = 0.771630
+ Total = 28.892001
+Correct result!
+
+
+2000000000   14
+
+Generate = 43.231857
+ Bin = 13.581337
+ Distribute = 6.186085
+ Local Sort = 32.070298
+ Gather = 2.738948
+ Total = 97.808527
+Incorrect result!
+
+
+2000000000   28
+
+Generate = 46.098529
+ Bin = 13.317347
+ Distribute = 6.776193
+ Local Sort = 16.672160
+ Gather = 3.749226
+ Total = 86.613457
+Incorrect result!
+
+
+2000000000   42
+
+Generate = 49.420012
+ Bin = 20.318528
+ Distribute = 7.300464
+ Local Sort = 11.819867
+ Gather = 3.852017
+ Total = 92.710890
+Incorrect result!
+
+
+2000000000   56
+
+Generate = 51.869387
+ Bin = 21.213866
+ Distribute = 7.897302
+ Local Sort = 8.811134
+ Gather = 3.512017
+ Total = 93.303708
+Correct result!
+
+
+2000000000   70
+
+Generate = 53.307498
+ Bin = 24.484505
+ Distribute = 7.928568
+ Local Sort = 7.203343
+ Gather = 3.252472
+ Total = 96.176389
+Correct result!
+
+
+2000000000   84
+
+Generate = 55.111615
+ Bin = 22.755599
+ Distribute = 8.365231
+ Local Sort = 5.909351
+ Gather = 3.098328
+ Total = 95.240125
+Incorrect result!
+
+
+2000000000   98
+
+Generate = 58.854734
+ Bin = 23.482140
+ Distribute = 8.892542
+ Local Sort = 5.386965
+ Gather = 3.349040
+ Total = 99.965423
+Correct result!
+
+
+2000000000   112
+
+Generate = 59.077985
+ Bin = 24.405357
+ Distribute = 9.285764
+ Local Sort = 4.701615
+ Gather = 3.317403
+ Total = 100.788125
+Incorrect result!
+
+
+2000000000   126
+
+Generate = 59.383441
+ Bin = 24.358984
+ Distribute = 9.852274
+ Local Sort = 4.522309
+ Gather = 3.455413
+ Total = 101.572422
+Incorrect result!
+
+
+2000000000   140
+
+Generate = 64.973583
+ Bin = 25.519124
+ Distribute = 9.582699
+ Local Sort = 4.127333
+ Gather = 3.117112
+ Total = 107.319852
+Incorrect result!
+
+

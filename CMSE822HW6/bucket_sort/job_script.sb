@@ -1,0 +1,35 @@
+#!/bin/bash --login
+########## SBATCH Lines for Resource Request ##########
+
+#SBATCH --time=02:00:00                # limit of wall clock time - how long the job will run (same as -t)
+#SBATCH --nodes=5                     # number of different nodes - could be an exact number or a range of nodes (same as -N)
+#SBATCH --ntasks-per-node=28                     # number of tasks - how many tasks (nodes) that you require (same as -n)
+#SBATCH --cpus-per-task=1              # number of CPUs (or cores) per task (same as -c)
+#SBATCH --mem=200G               # memory required per allocated CPU (or core) - amount of memory (in bytes)
+#SBATCH --job-name zhuboyao            # you can give your job a name for easier identification (same as -J)
+
+########## Command Lines to Run ##########
+
+module purge
+module load GCC/6.4.0-2.28 OpenMPI  ### load necessary modules, e.g.
+
+ 
+
+for N in 100000000 500000000 2000000000
+do
+        for p in 14 28 42 56 70 84 98 112 126 140
+        do
+		srun -n $p ./bucket_sort_v1 $N >> v11.dat            ### call your executable (similar to mpirun)
+        done
+done
+
+for N in 100000000 500000000 2000000000
+do
+        for p in 14 28 42 56 70 84 98 112 126 140
+        do
+		srun -n $p ./bucket_sort_v2 $N >> v2.dat            ### call your executable (similar to mpirun)
+        done
+done
+
+ 
+scontrol show job $SLURM_JOB_ID     ### write job information to output file
